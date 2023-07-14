@@ -1,0 +1,75 @@
+body{
+    /*impostazioni immagine background*/
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    /*impostazioni per il testo (stdColor = bianco xchè usato quasi sempre)*/
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold ;
+    /*impostazioni di spaziatura*/
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+
+}
+
+#contenitore{
+    background-color:hsla(0, 0%, 0%, 0.40);
+    padding: 5%;
+    border-radius:  20px 20px 20px 20px;
+}
+
+header{
+    /*impostazioni per il titolo e per l'immagine*/
+    margin:auto;
+    /*impostazioni per il titolo*/
+    font-size: larger;
+    text-align:center;
+    color:rgb(0, 255, 0);
+}
+#imgAdapter{
+    /*impostazioni rendering immagine*/
+    max-width: 30%;
+    height: auto;
+
+}
+
+.navColor{
+    background-color: rgb(0, 255, 0);
+    display: flex;
+    justify-content: center;
+    /*imposto uno spessore dei pulsanti*/
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+
+.subtitle{
+    font-size:larger;
+}
+
+.description{
+    font-size:small;
+}
+
+.chargeState{
+    border-radius: 5px 5px 5px 5px;
+}
+
+#orangeChargebar{
+    background-color: orange;
+    width: 40%;
+}
+
+#greenChargebar{
+    background-color: rgb(0, 255, 0);
+    width: 60%
+}
+
+#redChargebar{
+    background-color: brown;
+    width: 10%
+}
